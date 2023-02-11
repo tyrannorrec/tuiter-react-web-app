@@ -34,6 +34,7 @@ input.form-control{
 }
 .btn-primary.wd-override-primary{
     background-color: rgb(29, 161, 242);
+    border-color: rgb(29, 161, 242);
 }
 .fa.wd-overwrite-primary{
     color: rgb(29, 161, 242);
