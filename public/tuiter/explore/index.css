@@ -56,6 +56,10 @@ input.form-control{
     color: #000000;
 }
 
+.list-group-item:hover{
+    color: black;
+}
+
 .fa-stack.wd-normalize-margin-more{
     margin:-13px;
 }
