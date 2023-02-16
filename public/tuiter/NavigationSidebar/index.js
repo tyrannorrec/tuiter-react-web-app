@@ -9,8 +9,8 @@ const NavigationSidebar = (active) => {
                         <div class="row">
                             <div class="col col-12 col-xl-2">
                                 <span class="fa-stack wd-normalize-margin-t">
-                                    <i class="fa fa-square fa-2x fa-stack-1x text-primary"></i>
-                                    <i class="fa fa-solid fa-t fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-square fa-stack-1x"></i>
+                                    <i class="fa fa-solid fa-t fa-stack-1x wd-smaller-size text-secondary"></i>
                                 </span>
                             </div>
                             <div class="col d-none d-xl-block col-xl-10"></div>
