@@ -29,7 +29,7 @@ const NavigationSidebar = (active) => {
                             <div class="col col-12 col-xl-2">
                                 <i class="fa fa-hashtag wd-larger-size"></i>
                             </div>
-                            <div class="col d-none d-xl-block col-xl-10 fw-bold">Explore</div>
+                            <div class="col d-none d-xl-block col-xl-10">Explore</div>
                         </div>
                     </a>
                     <a href="../notifications.html" class="list-group-item ${isActive(active, 'notifications')}">
