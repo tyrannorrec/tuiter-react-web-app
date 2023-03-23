@@ -6,7 +6,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const NavigationSidebar = ( ) => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[2];
+    let active = paths[2];
+    if (active === "edit-profile") {active = "profile"}
 
     return (
     <>

@@ -8,6 +8,7 @@ import './App.css';
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
+import Assignment7 from "./labs/a7";
 
 library.add(fas);
 
@@ -16,8 +17,8 @@ function App() {
       <BrowserRouter>
           <div className="container">
               <Routes>
-                  <Route index element={<Labs/>}/>
-                  <Route path="/hello" element={<HelloWorld/>}/>
+                  <Route path="/*" element={<Labs/>}/>
+                  {/*<Route path="/hello" element={<HelloWorld/>}/>*/}
                   <Route path="/tuiter/*" element={<Tuiter/>}/>
                   <Route path="/tuiter" element={<Navigate to="/tuiter/home" replace />}/>
               </Routes>
