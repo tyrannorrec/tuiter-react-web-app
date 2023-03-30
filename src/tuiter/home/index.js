@@ -1,7 +1,7 @@
 import React from "react";
 import PostList from "../post-list";
 import WhatsHappening from "./whats-happening";
-import Tuits from "../tuits";
+import TuitsList from "../tuits/tuit-list";
 
 const HomeComponent = () => {
     return(
@@ -9,7 +9,7 @@ const HomeComponent = () => {
             <h5 className="mt-3 ms-1 fw-bold">Home</h5>
             {/*<PostList/>*/}
             <WhatsHappening/>
-            <Tuits/>
+            <TuitsList/>
         </>
     );
 };
