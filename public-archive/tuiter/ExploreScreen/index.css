@@ -1,0 +1,57 @@
+p{
+    margin-top:3px;
+    margin-bottom:3px;
+    font-size: 12pt;
+}
+
+input.form-control{
+    border:0 none;
+    background-color:white;
+    padding-left:48px;
+    height:36px;
+}
+.wd-font-black{
+    color:black;
+}
+
+.nav-tabs{
+}
+.nav-tabs .nav-link{
+    border: 0;
+}
+.nav-tabs .active{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.nav-tabs .nav-link:hover{
+    border: 0;
+}
+
+.list-group-item:hover{
+    color: white;
+}
+
+.fa-stack.wd-normalize-margin-more{
+    margin:-13px;
+}
+.fa-stack.wd-normalize-margin-t{
+    margin:-10px;
+}
+
+.fa.wd-smaller-size{
+    font-size:0.75em;
+}
+
+.wd-search-icon{
+    position:absolute;
+    padding-left:14px;
+    padding-top:10px;
+    color:gray;
+}
+.wd-max-width{
+    width:100%;
+}
+.wd-profile-picture-size{
+    height:52px;
+    width:52px;
+}
